@@ -19,3 +19,14 @@ second_name = names[1]
 print(numbers)
 print(strings)
 print("The second name on the names list is %s" % second_name)
+
+
+this_list = list(("apple", "banana", "cherry"))  # note the double round-brackets
+print(this_list)
+
+this_list = ["apple", "banana", "cherry"]
+this_list.insert(2, "watermelon")
+print(this_list)
+
+
+# other list method => loop, list comprehension, sort, copy, join, and other methods

@@ -54,3 +54,7 @@ car2.value = 10000.0
 
 print(car1.description())
 print(car2.description())
+
+# Inheritance
+# class Person: => Parent class
+# class Student(Person): => Child class

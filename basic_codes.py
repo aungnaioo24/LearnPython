@@ -17,6 +17,9 @@ if x == 1:
 # Variables and Types
 # Python is completely object oriented, and not "statically typed"
 
+# get the type of a variable by type() function
+print(type(15))
+
 # Number
 my_int = 7
 print(my_int)

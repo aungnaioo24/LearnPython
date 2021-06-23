@@ -37,3 +37,11 @@ def name_the_benefits_of_functions():
 
 
 name_the_benefits_of_functions()
+
+# self parameter
+# It does not have to be named self
+# you can call it whatever you like
+# but it has to be the first parameter of any function in the class
+
+# delete obj properties => del p1.age
+# delete object => del p1

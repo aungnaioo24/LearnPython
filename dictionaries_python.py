@@ -26,3 +26,6 @@ phonebook["John"] = 938477566
 
 for name, number in phonebook.items():  # items() method display all items in that dictionary
     print("Phone number of %s is %d" % (name, number))
+
+# Multi array can be used like JSON
+# copy function and other methods
