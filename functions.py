@@ -38,6 +38,7 @@ def name_the_benefits_of_functions():
 
 name_the_benefits_of_functions()
 
+
 # self parameter
 # It does not have to be named self
 # you can call it whatever you like
@@ -45,3 +46,26 @@ name_the_benefits_of_functions()
 
 # delete obj properties => del p1.age
 # delete object => del p1
+
+# Inner function
+def my_func():
+    x = 300
+
+    def my_inner_func():
+        print(x)
+
+    my_inner_func()
+
+
+my_func()
+
+# global keyword
+
+a = 15
+
+
+def change():
+
+    global a  # global keyword needed
+    a = a + 5
+    print(a)
